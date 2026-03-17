@@ -1,0 +1,79 @@
+STANDARD OPERATING PROCEDURE
+Document Number: SOP-2024-028
+Title: Glass Substrate Cleaning Procedure
+Revision: 2.1
+Effective Date: 2024-09-10
+Author: Rebecca Hoffman, Coating Specialist
+Department: Display Glass — Specialty Materials Division
+Status: Active
+Next Review: 2025-03-10
+Regulatory References: ISO 14644-1 (Cleanroom Classification), Customer Spec CS-DG-001 Rev 3, ISO 9001:2015 §8.5.1
+
+1. PURPOSE AND SCOPE
+This procedure defines the cleaning sequence for glass substrates used in display glass and optical coating applications prior to anti-reflective and functional coating deposition. It applies to all substrate sizes from 100×100mm to 2200×2500mm processed in Cleanroom B (ISO Class 6) and Cleanroom C (ISO Class 7) at Apex Glass Technologies.
+
+2. APPLICABLE MATERIALS
+2.1 Substrate types:
+  - Alkali-aluminosilicate glass (Gorilla-type, Supplier: Batch Materials Co., SUP-003)
+  - Borosilicate optical glass (internal production, per WI-4420)
+  - Fused silica substrates (Supplier: Silica Source Inc., SUP-001)
+2.2 Cleaning agents (must be from approved vendor list AVL-2024):
+  - Deionized water: resistivity ≥ 18.2 MΩ·cm at 25°C
+  - Isopropyl alcohol (IPA): electronic grade, ≥ 99.9% purity
+  - Semiconductor-grade detergent: Brite-Clean SC-45 (5ml/L dilution)
+2.3 Prohibited: Acetone, HF-based cleaners, and abrasive pads are strictly prohibited on coated or pre-coated substrates.
+
+3. CLEANING SEQUENCE
+Step 1 — Pre-rinse
+  Equipment: Ultrasonic bath, 40kHz, 60°C DI water
+  Duration: 5 minutes
+  Purpose: Remove bulk contamination, particulates, and residual oils
+
+Step 2 — Detergent wash
+  Equipment: Megasonic cleaner (1MHz), Brite-Clean SC-45 at 5ml/L in DI water, 50°C
+  Duration: 3 minutes
+  Note: Megasonic at 1MHz for substrates < 3mm thickness. Use 40kHz for substrates ≥ 6mm to prevent stress fracture.
+
+Step 3 — IPA wipe (for substrates with operator-visible streaks only)
+  Equipment: Class 100 cleanroom wipes (Texwipe TX4011), IPA
+  Method: Single-pass horizontal strokes, overlap 50%. Never rub in circular motion.
+  Applicable: Substrates with visible IPA rings or DI water spots after Step 2
+
+Step 4 — Final DI rinse
+  Equipment: Cascade rinser, 18.2 MΩ·cm DI water, ambient temperature
+  Duration: 2 minutes minimum
+  Flow rate: ≥ 5 L/min per substrate position
+
+Step 5 — Spin-dry (for substrates ≤ 300mm)
+  Equipment: Semitool ST-200 spin dryer
+  Speed: 1500 RPM, 60 seconds
+  For substrates > 300mm: Nitrogen blow-off gun, ULPA-filtered N2
+
+4. CLEANLINESS VERIFICATION
+4.1 Mandatory inspection after cleaning, before coating:
+  - Particle count: ≤ 5 particles ≥ 0.5 μm per 1cm² in a randomly selected 10cm² zone
+  - Measurement tool: TSI LPC-100 laser particle counter, calibrated quarterly
+  - Haze measurement: ≤ 0.15% (Haze-Gard Plus photometer)
+4.2 All measurements recorded in the batch traveler (Form QF-3018).
+4.3 Substrates failing cleanliness verification must be re-cleaned once. Second failure = reject and NCR initiation.
+
+5. ENVIRONMENTAL CONDITIONS
+5.1 All cleaning steps must occur in an ISO Class 6 or better environment.
+5.2 Temperature: 21°C ± 2°C
+5.3 Relative humidity: 45% ± 10%
+5.4 Personnel: Full cleanroom gown, gloves (nitrile, powder-free), face mask required.
+
+6. INCOMING SUBSTRATE INSPECTION
+6.1 All incoming substrates must pass incoming quality inspection (IQC) per customer spec CS-DG-001 before entering the cleaning process.
+6.2 Substrates from Batch Materials Co. (SUP-003) lot 22B were subject to NCR-2024-141 (micro-inclusion finding). Consult QA before processing any lot received from SUP-003 after 2024-10-01 until CAPA-087 is closed.
+
+7. REFERENCES
+- NCR-2024-141: Surface Defect — Gorilla Glass Lot 22B
+- CAPA-087: Substrate Thickness Variation — Supplier B
+- WI-4420: Borosilicate Glass Batch Mixing
+- WI-4398: Anti-Reflective Coating Application (downstream process)
+- ISO 14644-1: Cleanrooms and associated controlled environments — Classification of air cleanliness by particle concentration
+
+8. REVISION HISTORY
+Rev 2.1 (2024-09-10): Added SUP-003 hold notice per CAPA-087. Added megasonic frequency guidance for thin substrates. (Rebecca Hoffman)
+Rev 2.0 (2024-03-15): Updated particle count limit from 10 to 5 per CAPA-072 findings. (Dr. Sarah Chen)

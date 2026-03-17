@@ -1,0 +1,76 @@
+WORK INSTRUCTION
+Document Number: WI-4455
+Title: Fiber Preform Deposition Parameters
+Revision: 1.8
+Effective Date: 2024-10-01
+Author: Dr. Li Wei, Senior Scientist
+Department: Fiber Optics — Specialty Materials Division
+Status: Active
+Next Review: 2025-04-01
+Regulatory References: ISO 9001:2015 §8.5.1, IEC 60793-1-1, Internal Spec PS-007
+
+1. PURPOSE AND SCOPE
+This Work Instruction defines the MCVD (Modified Chemical Vapor Deposition) process parameters for optical fiber preform deposition at Apex Glass Technologies. The preform produced per this instruction is the input to the draw tower process described in SOP-2024-031.
+
+2. MCVD PROCESS OVERVIEW
+Modified Chemical Vapor Deposition deposits successive layers of doped and undoped silica glass inside a rotating silica substrate tube. The deposited layers form the optical waveguide core and cladding. After deposition, the tube is collapsed into a solid preform rod via high-temperature collapse.
+
+3. PROCESS PARAMETERS
+
+3.1 Substrate Tube
+Material: Synthetic fused silica (Suprasil grade), OD = 25mm, wall thickness = 2.5mm
+Cleaning: Per SOP-2024-028 (glass substrate cleaning) before mounting
+Hydroxyl (OH) content: ≤ 1 ppm (as measured by FTIR)
+
+3.2 Gas Flows — Core Layer Deposition
+  - Oxygen (O2) flow: 1200 sccm ± 50 sccm
+  - Silicon tetrachloride (SiCl4) flow: 380 sccm ± 10 sccm
+  - Germanium tetrachloride (GeCl4) flow: 45 sccm ± 5 sccm (core dopant for refractive index)
+  - Carrier gas (O2) through SiCl4 bubbler: 150 sccm
+  Temperature (deposition zone): 1580°C ± 15°C
+
+3.3 Gas Flows — Cladding Layer Deposition
+  - Oxygen flow: 1400 sccm ± 50 sccm
+  - SiCl4 flow: 450 sccm ± 15 sccm
+  - No germanium for cladding layers
+  Temperature: 1600°C ± 10°C
+
+3.4 Tube Rotation
+  - Deposition rotation: 120 RPM ± 10 RPM
+  - Collapse rotation: 60 RPM ± 5 RPM
+  - Lathe traverse speed (deposition): 120 mm/min
+  - Lathe traverse speed (collapse): 20 mm/min
+
+3.5 Refractive Index Profile
+Target: Step-index profile for single-mode fiber (ITU-T G.652.D)
+  - Core refractive index: 1.4682 ± 0.0002 at 633nm (equivalent Δ = 0.36%)
+  - Cladding refractive index: 1.4570 ± 0.0005 at 633nm
+  - Core diameter: 9.2 μm ± 0.5 μm (measured on preform cross-section)
+  - Cut-off wavelength: 1100 – 1280 nm on 2m length
+
+4. PREFORM GEOMETRY ACCEPTANCE CRITERIA
+4.1 After collapse, the preform must meet:
+  - Total length: ≥ 600mm usable
+  - OD: 25mm ± 0.3mm (measured at 5 positions along length)
+  - Ovality: ≤ 0.3% (max OD − min OD / nominal OD × 100%)
+  - Bow: ≤ 0.5mm/m
+  - Bubble count (cross-section): ≤ 2 bubbles per 100 cm²
+4.2 Non-conforming preforms: tag, quarantine, initiate NCR. Do not charge to draw tower.
+
+5. INLINE MONITORING
+5.1 Preform Analyzer (York P102): measure refractive index profile at 3 positions (20%, 50%, 80% along length) before draw.
+5.2 Results uploaded to MMS linked to preform lot number.
+5.3 Any core/cladding ratio deviation > 0.5% from target requires Engineering review before drawing.
+
+6. SAFETY
+GeCl4 and SiCl4 are toxic and corrosive. Handle only under fume hood with personal gas monitoring. Emergency: evacuate, call x5911, assemble at south parking lot.
+
+7. REFERENCES
+- SOP-2024-031: Optical Fiber Draw Process Control
+- SOP-2024-028: Glass Substrate Cleaning Procedure
+- WI-4420: Borosilicate Glass Batch Mixing
+- Internal Spec PS-007 Rev 4: Preform Acceptance Specification
+
+8. REVISION HISTORY
+Rev 1.8 (2024-10-01): Updated GeCl4 flow to 45 sccm (from 42 sccm) to correct refractive index drift observed over prior 6 months. (Dr. Li Wei)
+Rev 1.7 (2024-05-20): Added inline monitoring requirement for preform analyzer. (James Rodriguez)

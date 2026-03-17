@@ -1,0 +1,66 @@
+CORRECTIVE AND PREVENTIVE ACTION REPORT
+Document Number: CAPA-087
+Title: Substrate Thickness Variation — Supplier B (Batch Materials Co.)
+Status: Open
+Priority: Medium
+Phase: Root Cause Analysis
+Owner: Michael Torres, Supplier Quality Engineer
+Department: Supply Chain Quality
+Source NCR: NCR-2024-141
+Opened Date: 2024-10-15
+Target Close: 2025-02-28
+Regulatory References: ISO 9001:2015 §10.2, §8.4.1 (Supplier Control)
+
+1. PROBLEM DESCRIPTION
+Incoming quality inspection data for glass substrates supplied by Batch Materials Co. (Supplier ID: SUP-003) has shown a statistically significant degradation in thickness Cpk over the period June through October 2024. The Cpk for substrate thickness (target: 0.700mm ± 0.015mm) has declined from 1.8 in June 2024 to 1.1 in October 2024. The minimum acceptable Cpk per customer spec CS-DG-001 is 1.33.
+
+In the same period, three production delays were caused by substrate rejection at IQC, totaling 14.5 hours of lost production time. Scrap rate for coated substrates attributable to incoming thickness nonconformance has increased from 0.3% to 2.1% over the same period.
+
+NCR-2024-141 was the trigger event: a micro-inclusion finding in Gorilla-type substrate lot 22B from Batch Materials Co. in September 2024. The micro-inclusions found at 40× magnification inspection suggest a change in the supplier's glass melting or raw material process.
+
+2. TIMELINE OF EVENTS
+2024-06-01 — Cpk measurement begins declining. Supplier quality review scheduled but not escalated.
+2024-08-14 — First production delay (2.5 hours) due to IQC rejection of lot 18C (thickness out of spec).
+2024-09-03 — Second production delay (6 hours). Lot 20A rejected for thickness and surface quality.
+2024-09-15 — NCR-2024-141 initiated for micro-inclusions in lot 22B.
+2024-10-07 — Third production delay (6 hours). Lot 22D rejected for thickness.
+2024-10-15 — CAPA-087 opened.
+2024-10-18 — Supplier Corrective Action Request (SCAR-2024-014) issued to Batch Materials Co.
+2024-11-01 — Batch Materials Co. submitted interim response: attributed variation to raw material change from their SiO2 supplier.
+
+3. INCOMING INSPECTION DATA SUMMARY
+Month | Lots Received | Lots Rejected | Cpk | Notes
+Jun 2024 | 8 | 0 | 1.80 | Baseline
+Jul 2024 | 9 | 0 | 1.71 | Declining trend
+Aug 2024 | 10 | 1 | 1.52 | First rejection
+Sep 2024 | 10 | 2 | 1.38 | NCR-2024-141
+Oct 2024 | 9 | 3 | 1.10 | CAPA opened
+Total rejections Q4: 6 lots rejected out of 19 received (31.6% rejection rate)
+
+4. ROOT CAUSE ANALYSIS (IN PROGRESS)
+Preliminary finding from Batch Materials Co. SCAR response: their SiO2 raw material supplier was changed in May 2024 without notification to Apex Glass. The new SiO2 source has higher silanol (Si-OH) content, affecting glass viscosity during forming and leading to reduced dimensional uniformity.
+
+Apex Glass internal investigation: incoming SiO2 IQC specifications from SUP-003 did not include a silanol content test. This specification gap allowed the material change to go undetected until production impacts were observed.
+
+5. PROPOSED CORRECTIVE ACTIONS
+CA-1: Require Batch Materials Co. to revert to prior SiO2 source or qualify new source with full characterization data (Priority: High, Owner: Michael Torres, Status: In Progress)
+CA-2: Add silanol content (FTIR measurement) to IQC specification for all glass substrate suppliers (Priority: High, Owner: Dr. Sarah Chen, Status: Pending)
+CA-3: Tighten AQL from AQL 1.0 to AQL 0.65 for Batch Materials Co. until Cpk returns to ≥ 1.67 for 6 consecutive months (Priority: Immediate, Owner: Michael Torres, Status: Implemented)
+
+6. PREVENTIVE ACTIONS
+PA-1: Require 90-day advance notification from all Tier 1 suppliers for any raw material source change (Priority: High, Owner: Michael Torres)
+PA-2: Qualify a second glass substrate supplier (dual-source strategy) to eliminate single-source dependency on SUP-003 (Priority: High, Owner: Procurement + Michael Torres)
+PA-3: Add annual supplier process audit to all Tier 1 supplier agreements (Priority: Medium, Owner: Supply Chain)
+
+7. RISK ASSESSMENT
+Severity: Moderate — production delays, increased scrap cost
+Likelihood: Possible (with AQL tightening in place)
+Risk Level: Medium
+Risk Score: 5/10
+Customer Impact: No direct customer delivery impact to date. Two customer delivery windows for optical window product were compressed; managed with inventory buffer.
+Regulatory Impact: ISO 9001:2015 §8.4 supplier control — CAPA required to demonstrate corrective action to the quality management system.
+
+8. REFERENCES
+- NCR-2024-141: Surface Defect — Gorilla Glass Lot 22B
+- SOP-2024-028: Glass Substrate Cleaning Procedure (§6.2 references this CAPA)
+- SCAR-2024-014: Supplier Corrective Action Request to Batch Materials Co.

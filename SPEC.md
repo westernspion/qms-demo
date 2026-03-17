@@ -37,7 +37,7 @@ The visual layer from the original demo is **preserved exactly** — same glassm
 - **PostgreSQL 16 + pgvector extension** — all storage, all embeddings
 - **Ollama** — Docker service, exposed at `http://ollama:11434`
   - Embedding model: `nomic-embed-text` — 768-dim, fast, small
-  - Generation model: `qwen2.5:7b` — fits in available VRAM
+  - Generation model: `qwen2.5:3b` — fits comfortably in available memory (use 7b on machines with 8GB+ available)
 - **LangChain** — RAG pipeline only: document loading, text splitting, prompt templates, retrieval chain
 - **asyncpg** — raw async DB driver, no heavy ORM. SQLAlchemy Core for schema only
 - **Docker Compose** — single `docker compose up` spins up everything

@@ -1,0 +1,61 @@
+NONCONFORMANCE REPORT
+Document Number: NCR-2024-141
+Title: Surface Defect — Gorilla Glass Lot 22B (Batch Materials Co.)
+Status: Closed
+Priority: Medium
+Owner: Michael Torres, Supplier Quality Engineer
+Department: Supply Chain Quality
+Opened Date: 2024-09-15
+Closed Date: 2024-11-20
+Regulatory References: ISO 9001:2015 §8.7, SOP-2024-028, Customer Spec CS-DG-001
+
+1. NONCONFORMANCE DESCRIPTION
+During incoming quality inspection on 2024-09-15, Gorilla-type alkali-aluminosilicate glass substrates from Batch Materials Co. (Supplier ID: SUP-003), Lot 22B, were found to contain micro-inclusions visible at 40× magnification. The inclusions appear as small opaque particles (estimated size 5–20 μm) distributed across approximately 15% of the lot.
+
+Specification: Zero micro-inclusions ≥ 5 μm per Customer Spec CS-DG-001 §4.2
+Finding: Inclusions present in 9 of 60 substrates inspected (15% of lot)
+Lot size: 240 substrates (200×200mm), all placed on HOLD.
+Estimated rejected quantity: 36 substrates minimum (15% of lot)
+
+2. DETECTION METHOD
+Inspection performed by IQC Technician F. Guo using:
+- 40× optical microscope (Olympus BX53)
+- Transmitted light illumination for inclusion detection
+- DIC (differential interference contrast) imaging for surface topography
+Inspection scope: 100% of the lot was inspected for inclusions using the random sampling plan defined in CS-DG-001 Appendix A. Upon finding inclusions in the first 5 substrates, 100% inspection was activated.
+
+3. DISPOSITION
+15% of lot (36 substrates with confirmed inclusions) — rejected and returned to supplier.
+85% of lot (204 substrates passing inspection) — released for production use after review by Quality Director Dr. Sarah Chen. A use-as-is deviation was granted under the condition that:
+  a. 100% of released substrates undergo cleanliness verification per SOP-2024-028 §4 before coating
+  b. Any substrate showing adhesion issues in coating is to be removed from the lot and traceable records maintained
+
+4. SUPPLIER CORRECTIVE ACTION REQUEST
+SCAR-2024-011 issued to Batch Materials Co. on 2024-09-18.
+Response received 2024-10-05: Batch Materials Co. attributed inclusions to a refractory wear event in their tank furnace and implemented a furnace inspection protocol. No customer notification was made prior to shipping the lot (protocol violation).
+
+5. IMPACT ON PRODUCTION
+The 36 rejected substrates caused a production gap that was partially covered by safety stock. Net production delay: approximately 2 hours on 2024-09-16.
+
+6. ROOT CAUSE (SUPPLIER-ATTRIBUTED)
+Batch Materials Co. internal RCA: Refractory lining wear in glass tank furnace introduced zirconia particles into the melt. The affected furnace area has been relined. Enhanced melt inspection protocol (visual + transmitted light scanning of sampled substrate) was implemented by supplier.
+
+7. CLOSURE STATUS
+NCR-2024-141 closed on 2024-11-20 upon:
+  a. Receipt and review of Batch Materials Co. SCAR response
+  b. Two subsequent lots from Batch Materials Co. (22C, 22D) passing IQC
+  c. No recurrence in 60 days
+Note: CAPA-087 (Substrate Thickness Variation) remains open and addresses the broader supplier quality trend for Batch Materials Co.
+
+8. CROSS-REFERENCES
+- CAPA-087: Substrate Thickness Variation — Supplier B (root CAPA addressing broader SUP-003 supplier quality trend)
+- SOP-2024-028: §6.2 references this NCR for substrate handling instructions
+- AR-2024-Q3: Audit observation notes SUP-003 supplier performance trend as an area for improvement
+
+9. LESSONS LEARNED
+No supplier notification prior to shipment of a lot with known process anomaly is unacceptable. All Tier 1 suppliers have been reminded of the 48-hour advance notification requirement for any in-process anomaly per the Apex Glass Supplier Quality Manual §6.3.
+
+10. REVISION HISTORY
+Rev 1.0 (2024-09-15): NCR opened. (Michael Torres)
+Rev 1.1 (2024-10-05): Updated with SCAR response. (Michael Torres)
+Rev 1.2 (2024-11-20): Closed. (Dr. Sarah Chen, signed)

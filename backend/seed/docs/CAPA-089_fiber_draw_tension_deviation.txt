@@ -1,0 +1,60 @@
+CORRECTIVE AND PREVENTIVE ACTION REPORT
+Document Number: CAPA-089
+Title: Fiber Draw Tension Deviation — Line 3
+Status: In Progress
+Priority: High
+Phase: Corrective Action
+Owner: James Rodriguez, Process Engineer
+Department: Fiber Optics
+Source NCR: NCR-2024-156
+Opened Date: 2024-11-28
+Target Close: 2025-01-15
+Regulatory References: ISO 9001:2015 §10.2, SOP-2024-031
+
+1. PROBLEM DESCRIPTION
+On 2024-11-28 at 14:32, the SPC monitoring system on Draw Line 3 (Building 7) triggered an out-of-control alert for fiber tension. The I-MR chart for fiber tension showed a single point exceeding the UCL of 55g. The actual tension peak was recorded at 62g — 7g above the UCL and 12g above the target of 50g. Per SOP-2024-031 §6.1, the draw was stopped immediately by Operator T. Nakamura (Level 2 certified) at 14:35.
+
+Initial quarantine action: 12 spools of single-mode fiber (Spool IDs: SM3-24-7201 through SM3-24-7212) placed on HOLD pending investigation. Estimated yield impact: $34,200 (12 × 1,500m spools × $1.90/m average price).
+
+This event follows a similar tension deviation on Line 2 in March 2024 (CAPA-071, now closed). Root cause for CAPA-071 was capstan wear. Line 2 capstan was replaced as corrective action.
+
+2. TIMELINE OF EVENTS
+2024-11-28 14:32 — SPC system triggers UCL alert for tension on Line 3 (tension = 62g, UCL = 55g)
+2024-11-28 14:35 — Draw stopped by Operator T. Nakamura
+2024-11-28 15:00 — Shift Supervisor M. Torres notified, initiated quarantine of 12 spools
+2024-11-28 16:00 — Process Engineer James Rodriguez begins investigation
+2024-11-28 18:00 — NCR-2024-156 initiated for refractive index anomaly found in same time window
+2024-11-29 09:00 — Draw furnace heating element inspection initiated (Finding: Zone 3 element at 4,200 hrs / 4,500 hr rated life — 93% of rated life)
+2024-11-29 11:00 — CAPA-089 opened
+2024-11-30 — Silica Source Inc. notified of NCR-2024-156, refractive index linked to fiber tension event under investigation
+
+3. CONTRIBUTING FACTORS IDENTIFIED
+3.1 Heating Element Degradation: Zone 3 furnace heating element runtime is at 4,200 hours against a rated life of 4,500 hours. Inspection indicates beginning thermal output inconsistency. Temperature gradient across the draw zone has increased from baseline ±3°C to ±7°C over the past 30 days.
+3.2 PM Schedule: Preventive maintenance interval for heating element replacement was set at 12 months (approximately 4,500 operating hours). However, actual element degradation rate on Line 3 appears higher than the historical average used to set the PM interval, possibly due to higher draw speed utilization on Line 3 vs. historical Lines 1 and 2.
+3.3 SPC Trend Undetected: Review of 30-day SPC data shows 6 consecutive increasing tension readings over the prior week — a Western Electric Rule 2 trend signal that was not acted upon at shift supervisor review. This points to a procedural gap in shift review follow-through.
+
+4. ROOT CAUSE (PRELIMINARY — AI ANALYSIS PENDING)
+Primary suspected root cause: Thermal gradient instability in Zone 3 of the draw furnace caused by end-of-life heating element, resulting in viscosity variation in the glass melt, causing tension excursions.
+
+5. PROPOSED CORRECTIVE ACTIONS
+CA-1: Replace Zone 3 heating element (Priority: Immediate, Owner: Maintenance, Status: Pending)
+CA-2: Reduce PM interval for heating elements from 12 months to 10 months or 4,000 hours, whichever comes first (Priority: High, Owner: James Rodriguez, Status: Pending)
+CA-3: Retrain all shift supervisors on SPC trend response procedures — Western Electric Rules review (Priority: High, Owner: Dr. Sarah Chen, Status: Pending)
+
+6. PREVENTIVE ACTIONS
+PA-1: Implement predictive maintenance using Zone temperature gradient trending — alert at >5°C gradient (Priority: High, Owner: Engineering Team)
+PA-2: Review all draw lines for PM currency against 4,000 hr threshold (Priority: Medium, Owner: Maintenance)
+
+7. RISK ASSESSMENT
+Severity: Moderate — fiber tensile strength may be reduced but cladding integrity maintained
+Likelihood: Likely (if uncorrected)
+Risk Level: High
+Risk Score: 7/10
+Customer Impact: Potential fiber attenuation increase if tension nonconformance is widespread across spool lot. 100% of quarantined spools require tensile testing before release.
+Regulatory Impact: ISO 9001 §8.5.1 process control requirements. IEC 60793-2-50 fiber strength specification must be met for customer acceptance.
+
+8. REFERENCES
+- NCR-2024-156: Refractive Index Out of Spec — Batch 7842 (linked event)
+- CAPA-071: Line 2 Tension Deviation (March 2024, closed)
+- SOP-2024-031: Optical Fiber Draw Process Control §5.1 (PM requirements), §6 (escalation)
+- WI-4455: Fiber Preform Deposition Parameters

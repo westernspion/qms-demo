@@ -1,0 +1,76 @@
+STANDARD OPERATING PROCEDURE
+Document Number: SOP-2024-019
+Title: Fusion Draw Machine Calibration Procedure
+Revision: 3.0
+Effective Date: 2024-07-22
+Author: Dr. Li Wei, Senior Scientist
+Department: Display Glass — Specialty Materials Division
+Status: Active
+Next Review: 2025-01-22
+Regulatory References: IATF 16949 §7.1.5, MSA Reference Manual (4th Ed.), ISO 9001:2015 §7.1.5
+
+1. PURPOSE AND SCOPE
+This procedure establishes calibration intervals and methods for the Fusion Draw Machine (FDM) used in display glass production at Apex Glass Technologies. The FDM controls the overflow downdraw process that produces glass ribbon of specified thickness for display applications. Only Level 2 or higher certified operators may adjust calibration parameters. See TR-2024-015 for certification level definitions.
+
+2. CALIBRATION SCHEDULE
+2.1 Daily Calibration (before first draw of each production day):
+  - Overflow temperature uniformity: verify ±2°C across 500mm span using calibrated traversing thermocouple
+  - Pull-down speed calibration: verify against laser encoder output at 3 speeds (1 m/min, 3 m/min, 5 m/min)
+  - Glass ribbon thickness measurement: take 5 readings across the ribbon width, confirm Cpk ≥ 1.33
+  - Edge trim alignment: verify within ±0.5mm using the optical alignment fixture (Tool ID: FDM-T-004)
+
+2.2 Weekly Calibration:
+  - Full thermal profile mapping: 25-point grid across the overflow isopipe
+  - Edge bead formation check: bead width 4.5 ± 0.5mm
+  - Annealing lehr temperature profile: verify ±5°C at each of 8 zones
+  - Ribbon bow measurement: ≤ 0.3mm/m in the pull direction
+
+2.3 Quarterly Calibration (performed by certified metrology technician):
+  - Thermocouple replacement (Type S, 1600°C rated) with new certified instruments
+  - Full MSA study: Gauge R&R on thickness measurement system. Acceptance: %GRR ≤ 15%
+  - Pyrometer calibration: offset correction using primary standard blackbody reference
+  - Encoder calibration: velocity accuracy ±0.1% at all production speeds
+  - Certificate of calibration issued and retained in the Calibration Management System (CMS)
+
+3. PARAMETERS: OVERFLOW TEMPERATURE
+Target: 1215°C ± 8°C at the overflow trough centerline
+Pull-down temperature profile: 1215°C → 900°C over 1.2 meters (control by 6 independently adjustable heater zones)
+Maximum allowed zone-to-zone temperature differential: 15°C
+If differential exceeds 15°C: stop production, alert Engineering, initiate PDR
+
+4. PULL-DOWN SPEED AND RIBBON THICKNESS
+Glass ribbon thickness is set by the ratio of glass flow rate (set by overflow temperature and melt viscosity) to pull-down speed.
+For 0.7mm target thickness: pull-down speed approximately 2.8 m/min (adjust per actual viscosity calculation)
+For 1.1mm target thickness: pull-down speed approximately 1.6 m/min
+Thickness uniformity requirement: ≤ ±0.02mm across the full width
+
+5. OPERATOR CERTIFICATION REQUIREMENTS
+5.1 Level 1 Certified: May perform daily checks and record results under supervision.
+5.2 Level 2 Certified: May perform all calibration adjustments. Must be present for weekly and quarterly calibrations.
+5.3 Level 3 Certified: Approves calibration results, signs off on certificates.
+5.4 Certification status for all operators maintained in TR-2024-015.
+Note: 3 Level 1 operators have training records expiring February 2025. Recertification must be scheduled before expiry.
+
+6. OUT-OF-TOLERANCE RESPONSE
+6.1 If any calibration check is out of tolerance:
+  a. Record finding in the Calibration Log (Form QF-1095)
+  b. Stop FDM production if parameter is safety-critical or product-impacting
+  c. Notify Engineering within 1 hour
+  d. Do not resume production until root cause is determined and corrective action is implemented
+  e. Review all product produced since last successful calibration for potential nonconformance
+
+7. MEASUREMENT SYSTEM ANALYSIS SUMMARY (Last Annual Study — 2024-Q2)
+Thickness measurement system (Keyence LS-9006T):
+  - %GRR: 8.3% (Acceptable, < 15% threshold)
+  - Number of distinct categories (ndc): 8 (Acceptable, ≥ 4 required)
+  - Bias: +0.003mm (within tolerance, no correction applied)
+
+8. REFERENCES
+- TR-2024-015: FDM Operator Training Record
+- ISO 9001:2015 §7.1.5: Monitoring and measuring resources
+- IATF 16949 §7.1.5.1: General measurement system analysis requirements
+- MSA Reference Manual, 4th Edition (AIAG)
+
+9. REVISION HISTORY
+Rev 3.0 (2024-07-22): Added quarterly MSA requirement, updated Level 2 certification requirement for all adjustments per IATF 16949 audit finding AR-2024-Q3 observation #2. (Dr. Li Wei)
+Rev 2.2 (2024-02-10): Reduced zone temperature differential limit from 20°C to 15°C. (Dr. Sarah Chen)

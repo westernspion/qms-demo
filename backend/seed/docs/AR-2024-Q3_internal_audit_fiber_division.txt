@@ -1,0 +1,67 @@
+INTERNAL AUDIT REPORT
+Document Number: AR-2024-Q3
+Title: Q3 2024 Internal Quality Audit — Fiber Division
+Status: Final
+Audit Period: 2024-09-09 through 2024-09-11
+Lead Auditor: Dr. Sarah Chen, Quality Director
+Supporting Auditor: External Assessor P. Ramirez (contracted)
+Scope: ISO 9001:2015 §8 (Operations) and §9 (Performance Evaluation)
+Departments Audited: Fiber Optics, Display Glass, Supply Chain Quality
+Overall Rating: Satisfactory
+Regulatory References: ISO 9001:2015, IATF 16949 §9.2
+
+1. EXECUTIVE SUMMARY
+The Q3 2024 internal quality audit was conducted over three days covering processes in the Fiber Optics and Display Glass production areas, and the Supply Chain Quality function. The audit assessed compliance with ISO 9001:2015 Sections 8 (Operations) and 9 (Performance Evaluation). The overall finding is Satisfactory, with 2 minor nonconformances and 3 observations.
+
+No major nonconformances were found. The audit found strong evidence of a process-oriented culture, particularly in the fiber draw operations where SPC discipline is well-maintained. However, two areas require corrective action and three areas are noted as opportunities for improvement.
+
+2. AUDIT SCOPE AND METHODS
+Scope: Fiber draw (Lines 1-4, Building 7), preform deposition (Clean Room A), glass substrate incoming inspection (Receiving), supplier quality management (Supply Chain Quality office)
+Evidence reviewed: Production records, SPC charts (October 2023 – August 2024), CAPA register, calibration logs, training records, NCR log, audit trail from QMS
+Interviews: 12 personnel including operators, supervisors, and QA staff
+
+3. MINOR FINDINGS (Nonconformances)
+
+Finding MN-1: Training Record Gaps — Traceability of Certification
+ISO 9001:2015 §7.2 — Competence
+Evidence: The FDM operator training matrix (TR-2024-015) identifies 3 operators whose Level 1 FDM certification expires in February 2025. No recertification schedule has been established for these operators at the time of the audit. If these certifications lapse, affected operators may not legally perform daily calibration activities per SOP-2024-019.
+Required action: Establish and communicate recertification schedule for 3 identified operators before December 31, 2024. Owner: HR / Training Coordinator.
+Status at report date: Open
+
+Finding MN-2: Calibration Label Missing on Gauge (EQ-1204)
+ISO 9001:2015 §7.1.5.1 — General monitoring and measuring
+IATF 16949 §7.1.5.1 — Calibration/verification records
+Evidence: Tension gauge EQ-1204 on Draw Line 2 did not have a current calibration label at time of audit. Calibration records in CMS show EQ-1204 was calibrated on 2024-07-08 and is not due until 2025-01-08. The label was likely lost during a recent maintenance event. No calibration gap, but visual identification requirement not met.
+Required action: Apply calibration label to EQ-1204 immediately. Audit all tension gauges for label compliance. Owner: Maintenance / Calibration Team.
+Status at report date: Closed (label reapplied 2024-09-12)
+
+4. OBSERVATIONS (Opportunities for Improvement)
+
+Observation OB-1: Supplier Performance Trend for SUP-001 (Silica Source Inc.)
+Section: §9.1.3 — Analysis and evaluation; §8.4 — Control of externally provided processes
+Finding: Review of incoming quality data for SUP-001 (Silica Source Inc.) over the past 4 quarters shows a slight increase in lot-to-lot refractive index variability, though all lots remained within specification at time of audit. The coefficient of variation for refractive index has increased from 0.02% to 0.07% over this period. This is not a nonconformance but is a trend worth monitoring.
+Recommendation: Establish a formal supplier performance metric dashboard for SUP-001 with trigger thresholds. Consider requesting SUP-001 provide CoA with expanded refractive index statistical data (range, Cpk) per delivery.
+Note: Subsequent to this audit, NCR-2024-156 was initiated for SUP-001 Batch 7842 refractive index out of specification (2024-11-30). The trend noted in this observation proved predictive.
+
+Observation OB-2: SPC Trend Response Discipline
+Section: §9.1.1 — Monitoring, measurement, analysis
+Finding: Review of 6-month SPC records for Draw Line 3 shows instances where Western Electric Rule 2 trend signals (6 consecutive points in one direction) were noted in the chart but not documented in the shift supervisor review log. No out-of-control conditions occurred during this period, but the gap in shift-log documentation suggests that trend response procedures may not be uniformly applied.
+Recommendation: Refresh training for all shift supervisors on SPC response procedures (Western Electric Rules application). Document in shift log any trend signal and the response taken, even if response is "monitored, no action required."
+Note: This observation is directly relevant to CAPA-089 (opened 2024-11-28), where a tension trend was visible on Line 3 SPC data in the week before the tension excursion event.
+
+Observation OB-3: Knowledge Graph / Document Cross-Referencing
+Section: §7.5 — Documented information
+Finding: Several SOPs and Work Instructions contain cross-references to other controlled documents (e.g., SOP-2024-031 references WI-4455 and WI-4420), but these cross-references are not tracked in the QMS document relationship matrix. If a referenced document is revised, there is no automatic trigger to review the referencing document.
+Recommendation: Add a cross-reference tracking field to the QMS document management module. Automate notification to document owners when a referenced document is revised.
+
+5. PREVIOUS AUDIT FINDINGS — STATUS REVIEW
+The Q2 2024 internal audit (AR-2024-Q2) identified 1 minor finding regarding calibration record retention. This finding was closed in August 2024 upon completion of record archiving to the calibration management system.
+All Q2 findings: Closed.
+
+6. AUDIT CONCLUSION
+The Fiber Division demonstrates a sound quality management system with effective process controls in fiber draw operations. The two minor findings are low-risk and administrative in nature. The three observations identify system improvements that would strengthen proactive quality management. Recommended actions should be completed within 90 days.
+
+Overall audit result: SATISFACTORY
+
+Signed: Dr. Sarah Chen, Quality Director, 2024-09-20
+Reviewed: P. Ramirez, External Assessor, 2024-09-22

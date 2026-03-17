@@ -1,0 +1,77 @@
+WORK INSTRUCTION
+Document Number: WI-4398
+Title: Anti-Reflective Coating Application
+Revision: 3.1
+Effective Date: 2024-09-25
+Author: Rebecca Hoffman, Coating Specialist
+Department: Optical Coatings — Specialty Materials Division
+Status: Active
+Next Review: 2025-03-25
+Regulatory References: ISO 9001:2015 §8.5.1, Customer Spec CS-OC-002 Rev 2, IEC 61010-1
+
+1. PURPOSE AND SCOPE
+This Work Instruction covers the physical vapor deposition (PVD) process for single-layer and multi-layer anti-reflective (AR) coatings on glass substrates. AR coatings are applied to display glass, optical windows, and protective covers for Apex Glass Technologies customers. Target reflectance is < 0.5% at 1550nm for telecom-grade coatings.
+
+2. COATING CHAMBER SPECIFICATIONS AND SETUP
+Equipment: Leybold A1100-L e-beam PVD system, Chamber volume 1.2 m³
+2.1 Base vacuum requirement: ≤ 2 × 10⁻⁶ Torr before deposition begins
+2.2 Substrate temperature at deposition: 150°C ± 10°C (measured by IR thermometer, calibrated quarterly)
+2.3 Substrate pre-conditioning: 15-minute Ar ion beam clean at 500V, 100mA before deposition (removes native oxide and adsorbed moisture)
+
+3. PROCESS PARAMETERS
+
+3.1 Single-Layer AR Coating (SiO2, Quarter-Wave)
+Target wavelength: 1550nm
+Layer: SiO2, physical thickness = 266nm ± 5nm (λ/4 optical thickness at n=1.46)
+Deposition parameters:
+  - E-beam power: 5.5 kW ± 0.3 kW
+  - Deposition rate: 0.3 nm/s (monitored by quartz crystal microbalance, QCM-0044)
+  - Oxygen partial pressure: 2 × 10⁻⁴ Torr (backfill during deposition)
+  - Substrate rotation: 10 RPM (uniform distribution)
+
+3.2 Multi-Layer V-Coat AR (SiO2 / TiO2 / SiO2)
+For wideband AR (400–700nm, reflectance < 0.3% avg across band):
+  Layer 1 (SiO2, low-n): physical thickness 90nm, rate 0.3 nm/s
+  Layer 2 (TiO2, high-n): physical thickness 65nm, rate 0.15 nm/s, add 5 × 10⁻⁴ Torr O2
+  Layer 3 (SiO2, low-n): physical thickness 105nm, rate 0.3 nm/s
+Total coating time: approximately 45 minutes per batch (12 substrates, 200×200mm each)
+
+4. POST-COAT VERIFICATION
+
+4.1 Ellipsometry (Primary Verification):
+Equipment: J.A. Woollam M-2000 spectroscopic ellipsometer
+Measurement: Psi and Delta at 3 points per substrate (center, +50mm, −50mm off-center)
+Acceptance:
+  - Physical thickness within ±3nm of target
+  - Refractive index n within ±0.01 of target material value
+  - If any substrate fails: quarantine, re-measure, NCR if confirmed
+
+4.2 Reflectance Measurement:
+Equipment: Perkin-Elmer Lambda 950 UV/Vis/NIR spectrophotometer
+Method: Specular reflectance at 8° angle of incidence
+Acceptance:
+  - Single-layer AR: R < 0.5% at 1550nm ± 5nm
+  - V-coat AR: R < 0.3% average across 400–700nm, no wavelength > 0.8%
+
+4.3 Adhesion (Scotch Tape Test, ASTM D3359):
+Frequency: 1 substrate per batch
+Acceptance: 5B rating (no coating removal)
+
+4.4 Durability (per customer spec CS-OC-002 §5.3):
+  - Abrasion: 0 haze increase after 50 strokes with cheese cloth, 500g load
+  - Humidity: 0 visible change after 24h at 85°C / 85% RH
+
+5. CLEANING PREREQUISITE
+All substrates must pass cleaning inspection per SOP-2024-028 before coating. Particle count > 5 per cm² at 0.5 μm will result in coating defects. Verify cleanliness certificate on substrate traveler before loading chamber.
+
+6. TRACEABILITY
+Batch ID format: AR-YYYY-MMM-NNN. Linked to substrate lot numbers, raw material lots (SiO2 target lot, TiO2 target lot), and operator ID. Retained 10 years.
+
+7. REFERENCES
+- SOP-2024-028: Glass Substrate Cleaning Procedure
+- Customer Spec CS-OC-002 Rev 2: Anti-Reflective Coating Requirements
+- ASTM D3359: Standard Test Methods for Rating Adhesion by Tape Test
+
+8. REVISION HISTORY
+Rev 3.1 (2024-09-25): Added TiO2 O2 partial pressure correction (from 3×10⁻⁴ to 5×10⁻⁴ Torr) after yield improvement study. (Rebecca Hoffman)
+Rev 3.0 (2024-06-18): Added multi-layer V-coat process. (Rebecca Hoffman, Dr. Li Wei)

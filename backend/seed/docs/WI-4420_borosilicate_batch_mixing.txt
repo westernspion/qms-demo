@@ -1,0 +1,83 @@
+WORK INSTRUCTION
+Document Number: WI-4420
+Title: Borosilicate Glass Batch Mixing
+Revision: 2.3
+Effective Date: 2024-08-05
+Author: Dr. Li Wei, Senior Scientist
+Department: Glass Melting — Specialty Materials Division
+Status: Active
+Next Review: 2025-02-05
+Regulatory References: ISO 9001:2015 §8.5.1, Internal Formulation Standard FS-001 Rev 5
+
+1. PURPOSE AND SCOPE
+This Work Instruction defines the batch formulation, incoming inspection, mixing sequence, and traceability requirements for borosilicate glass batch preparation at Apex Glass Technologies. Borosilicate glass produced per this instruction feeds the fiber preform process (WI-4455) and the FDM glass ribbon process (SOP-2024-019).
+
+2. BATCH FORMULATION
+Standard Borosilicate Glass Composition (weight percent):
+  - Silicon dioxide (SiO2): 72.0% ± 0.5%   — Supplier: Silica Source Inc. (SUP-001)
+  - Boron trioxide (B2O3): 13.0% ± 0.3%    — Supplier: Borate Specialists Ltd. (SUP-002)
+  - Sodium oxide (Na2O): 9.0% ± 0.3%       — from sodium carbonate Na2CO3, Supplier: SUP-005
+  - Aluminum oxide (Al2O3): 4.0% ± 0.2%    — Supplier: SUP-005
+  - Potassium oxide (K2O): 2.0% ± 0.2%     — from potassium carbonate K2CO3, Supplier: SUP-005
+
+Target total batch weight: 500 kg per melt. Scale tolerance: ±50g per component.
+
+3. INCOMING MATERIAL INSPECTION
+3.1 All raw materials must pass IQC before use in batch mixing:
+  Component     | Test             | Method         | Acceptance Criteria
+  SiO2          | Refractive index | ASTM C1349     | 1.4570 – 1.4585
+  SiO2          | Purity           | XRF            | ≥ 99.8% SiO2
+  B2O3          | Assay            | Titrimetry     | ≥ 99.5% B2O3
+  Na2CO3        | Moisture         | LOI at 200°C   | ≤ 0.5% weight loss
+  Al2O3         | Particle size    | Laser diffract | D50 = 5–15 μm
+
+3.2 Lot traceability: Each raw material batch receives a unique lot number in the Material Management System (MMS). Lot number is recorded on the batch ticket and retained for minimum 7 years.
+
+3.3 HOLD status materials: Materials under HOLD (per NCR or supplier quality issue) must not be issued to the batch mixing area. The MMS system will display a RED HOLD indicator for any held lot.
+Current hold: SUP-001 lot #7842 is on HOLD per NCR-2024-156. Do not use until released by Quality.
+
+4. MIXING SEQUENCE
+Step 1 — Dry blending:
+  a. Verify scale calibration (Form QF-0812, daily calibration log)
+  b. Weigh SiO2 into mixing vessel. Record weight on batch ticket.
+  c. Add B2O3. Mix 5 minutes at 30 RPM in ribbon blender.
+  d. Add Na2CO3. Mix 3 minutes.
+  e. Add Al2O3. Mix 3 minutes.
+  f. Add K2CO3. Mix 5 minutes.
+  g. Final blend: 10 minutes at 45 RPM. Visual inspection: no visible color streaks or unmixed lumps.
+
+Step 2 — Moisture verification:
+  Sample 100g from the top, middle, and bottom of the blend.
+  Dry at 120°C for 2 hours. Weight loss ≤ 0.3% for all three samples.
+  If any sample fails: discard batch, investigate moisture source, NCR required.
+
+Step 3 — Charging to melting furnace:
+  Pre-heat furnace to 1250°C before charging.
+  Charge rate: 50 kg/15 minutes maximum to prevent thermal shock on furnace crown.
+  Record charge completion time on furnace log (Form QF-0820).
+
+5. TEMPERATURE PROFILE FOR MELTING
+  1250°C → 1450°C: ramp at 5°C/min (homogenization phase, 2 hours)
+  1450°C hold: 4 hours (fining phase — bubble elimination)
+  1450°C → 1200°C: ramp down at 3°C/min (conditioning phase)
+  Draw temperature: per SOP-2024-031 (2050°C at draw furnace, achieved by separate draw furnace, not batch furnace)
+
+6. QUALITY CHECKS DURING MELT
+6.1 Bubble count: sample via platinum tube extraction at 2h and 4h of fining. Acceptance: ≤ 2 bubbles/cm³ at 4h.
+6.2 Refractive index of melt sample at 1200°C: measured by high-temperature refractometer. Target: 1.4578 ± 0.0008.
+6.3 Viscosity at 1200°C: 10³ dPa·s ± 0.5 log units (measured by rotational viscometer SUL-VT3).
+
+7. TRACEABILITY REQUIREMENTS
+7.1 Each melt is assigned a unique Melt ID (format: MELT-YYYY-NNN).
+7.2 The batch ticket links: Melt ID → raw material lot numbers → IQC results → batch ticket signer → furnace log.
+7.3 Traceability must be maintained through fiber preform production and to finished fiber spool level.
+
+8. REFERENCES
+- NCR-2024-156: Refractive Index Out of Spec — Silica Source Batch 7842 (current HOLD)
+- SOP-2024-031: Optical Fiber Draw Process Control
+- WI-4455: Fiber Preform Deposition Parameters
+- FS-001 Rev 5: Internal Glass Formulation Standard
+
+9. REVISION HISTORY
+Rev 2.3 (2024-08-05): Added NCR-2024-156 HOLD notice for SUP-001 lot #7842. Updated IQC acceptance for SiO2 refractive index to align with NCR finding. (Dr. Li Wei)
+Rev 2.2 (2024-04-12): Added moisture verification step after initial findings from lot tracking audit. (Dr. Sarah Chen)

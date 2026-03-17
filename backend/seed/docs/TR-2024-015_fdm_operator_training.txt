@@ -1,0 +1,81 @@
+TRAINING RECORD
+Document Number: TR-2024-015
+Title: FDM Operator Training Record and Certification Matrix
+Status: Active
+Revision: 1.4
+Effective Date: 2024-08-01
+Author: Dr. Sarah Chen, Quality Director
+Department: Human Resources / Quality
+Regulatory References: ISO 9001:2015 §7.2, IATF 16949 §7.2.1, SOP-2024-019
+
+1. PURPOSE
+This document maintains the certification level assignments and expiry tracking for all personnel authorized to operate, calibrate, or supervise the Fusion Draw Machine (FDM) at Apex Glass Technologies. Certification currency is required before any individual may perform the corresponding activities as defined in SOP-2024-019.
+
+2. CERTIFICATION LEVEL DEFINITIONS
+
+Level 1 — Operator Observer
+Scope: Observe and record calibration results under direct supervision of a Level 2 or higher certified operator. May perform daily setup checks with supervisor present.
+Prerequisites: Completed FDM Operator Orientation Course (8 hours), passed written test (≥ 80%)
+Certification period: 12 months
+Renewal: Annual, requires re-test or supervised observation sign-off by Level 3
+
+Level 2 — Qualified Operator
+Scope: Perform all daily and weekly calibration activities independently. May make calibration adjustments within the parameters specified in SOP-2024-019. May supervise Level 1 operators.
+Prerequisites: Level 1 certification held for ≥ 6 months, passed Level 2 practical exam, completed advanced FDM calibration course (16 hours)
+Certification period: 24 months
+Renewal: Biennial practical assessment by Level 3
+
+Level 3 — Lead Technician / Sign-off Authority
+Scope: Performs quarterly calibrations, approves calibration results, signs certificates of calibration. Trains and certifies Level 1 and Level 2 operators. May modify SOP-2024-019 parameters within Engineering-approved ranges.
+Prerequisites: Level 2 certification held for ≥ 12 months, 40-hour advanced metrology course (or equivalent external training), annual competency assessment
+Certification period: 36 months
+Renewal: Triennial assessment by Quality Director + external metrology specialist review
+
+Level 4 — Quality Director Oversight
+Scope: Approves and signs off Level 3 certification. Oversees training program. Performs annual program review.
+
+3. CURRENT CERTIFICATION MATRIX
+
+Personnel              | Level | Certified Date | Expiry Date    | Status
+-----------------------|-------|----------------|----------------|--------
+T. Nakamura            |   2   | 2023-03-15     | 2025-03-15     | ACTIVE
+F. Guo                 |   2   | 2022-11-01     | 2024-11-01     | RENEWED 2024-10-28
+J. Hernandez           |   2   | 2023-07-20     | 2025-07-20     | ACTIVE
+R. Osei                |   1   | 2024-03-01     | 2025-02-28     | EXPIRES SOON
+A. Patel               |   1   | 2024-03-15     | 2025-03-14     | EXPIRES SOON
+B. Tanaka              |   1   | 2024-02-10     | 2025-02-09     | EXPIRES SOON
+James Rodriguez        |   3   | 2022-06-01     | 2025-06-01     | ACTIVE
+Dr. Li Wei             |   3   | 2021-09-10     | 2024-09-09     | RENEWED 2024-09-03
+Dr. Sarah Chen         |   4   | N/A            | Ongoing        | ACTIVE
+
+NOTE — URGENT: R. Osei (Level 1), A. Patel (Level 1), and B. Tanaka (Level 1) have certifications expiring between February 9 and March 14, 2025. Per AR-2024-Q3 Finding MN-1, recertification scheduling must be completed before December 31, 2024. Until renewed, these operators may not perform daily calibration checks without direct Level 2 supervision.
+
+Recertification status as of TR-2024-015 Rev 1.4: Scheduling in progress. Target completion: January 31, 2025.
+
+4. TRAINING COURSES REFERENCED
+
+Course ID | Title | Duration | Required For
+FDM-ORI-01 | FDM Operator Orientation | 8 hours | Level 1 prerequisite
+FDM-CAL-02 | FDM Daily Calibration Practical | 16 hours | Level 2 prerequisite
+FDM-ADV-03 | Advanced FDM Metrology and MSA | 40 hours | Level 3 prerequisite
+QMS-SPC-04 | SPC and Western Electric Rules for Operators | 4 hours | Recommended all levels
+QMS-SPC-05 | SPC Response Procedure for Shift Supervisors | 2 hours | Required for supervisors (per CAPA-089 CA-3)
+
+Course FDM-ORI-01 and FDM-CAL-02 are delivered internally by Level 3 certified trainers.
+Course FDM-ADV-03 is delivered by Keyence Metrology Training (external) — next available session: 2025-02-17.
+
+5. AUDIT FINDINGS RELATED TO TRAINING
+5.1 AR-2024-Q3, Finding MN-1: Three Level 1 operators with expiring certifications — response actions documented in this record.
+5.2 CAPA-089, CA-3: SPC trend response retraining required for all shift supervisors. Course QMS-SPC-05 to be delivered by 2025-01-15. Owner: Dr. Sarah Chen. Status: Scheduled.
+
+6. REFERENCES
+- SOP-2024-019: Fusion Draw Machine Calibration Procedure
+- AR-2024-Q3: Q3 Internal Audit Report (Finding MN-1 — training certification gap)
+- CAPA-089: Fiber Draw Tension Deviation (CA-3 — SPC retraining)
+- ISO 9001:2015 §7.2: Competence
+- IATF 16949 §7.2.1: Competence — supplemental
+
+7. REVISION HISTORY
+Rev 1.4 (2024-08-01): Updated certification matrix, added expiry alerts for 3 Level 1 operators, added CAPA-089 CA-3 training reference. (Dr. Sarah Chen)
+Rev 1.3 (2024-03-01): Added R. Osei, A. Patel to matrix (new hires). (Dr. Sarah Chen)
+Rev 1.2 (2024-01-15): Updated to reflect Level 2 certification of T. Nakamura, F. Guo (promoted from Level 1). (James Rodriguez)

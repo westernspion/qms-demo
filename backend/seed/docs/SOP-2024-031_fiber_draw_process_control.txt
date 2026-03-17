@@ -1,0 +1,91 @@
+STANDARD OPERATING PROCEDURE
+Document Number: SOP-2024-031
+Title: Optical Fiber Draw Process Control
+Revision: 4.2
+Effective Date: 2024-11-15
+Author: Dr. Sarah Chen, Quality Director
+Department: Fiber Optics — Specialty Materials Division
+Status: Active
+Next Review: 2025-05-15
+Regulatory References: ISO 9001:2015 §8.6, IEC 60793-2-50, FDA 21 CFR 820.80, IATF 16949 §8.5, WI-4455, WI-4420
+
+1. PURPOSE AND SCOPE
+This Standard Operating Procedure establishes the process control requirements for optical fiber draw operations on Lines 1 through 4 in Building 7, Apex Glass Technologies Specialty Materials Division. This procedure applies to all draw tower operators, process engineers, and quality personnel involved in the production of single-mode and multimode optical fiber for telecommunications, medical, and industrial applications.
+
+2. PROCESS PARAMETERS — CRITICAL CONTROL POINTS
+The following parameters are critical and must be maintained within specified limits during all draw operations. Out-of-specification conditions must trigger immediate escalation per Section 6.
+
+2.1 Draw Temperature
+Target: 2050°C ± 15°C (measurement point: furnace centerline, zone 3)
+Upper Control Limit (UCL): 2065°C
+Lower Control Limit (LCL): 2035°C
+Measurement method: Type B thermocouple, calibrated per WI-4398 quarterly schedule
+Corrective action threshold: Two consecutive readings outside ±10°C of target
+
+2.2 Draw Speed
+Target: 22 m/s (range: 20–25 m/s)
+UCL: 25.0 m/s
+LCL: 20.0 m/s
+SPC chart: Individuals + Moving Range (I-MR), plotted every 15 minutes
+Out-of-control signal: Western Electric Rule 1 (single point beyond ±3σ)
+
+2.3 Fiber Tension
+Target: 50g (range: 45–55g)
+UCL: 55g
+LCL: 45g
+Measurement: Inline tension gauge, calibrated monthly
+Critical: Any reading exceeding 58g requires immediate draw stop. Peak excursions above 62g require NCR initiation within 4 hours and quarantine of affected spools.
+
+2.4 Fiber Diameter
+Target: 125.0 μm ± 0.7 μm (cladding diameter)
+UCL: 125.7 μm
+LCL: 124.3 μm
+Measurement: Laser micrometer, continuous in-line measurement
+Acceptance: Cpk ≥ 1.33 on a per-spool basis
+
+2.5 Coating Diameter
+Target: 245 μm ± 5 μm
+UCL: 250 μm
+LCL: 240 μm
+Coating material: UV-curable acrylate, Supplier: PolyCore Inc. (SUP-004)
+Coating concentricity: ≤ 6 μm off-center
+
+3. STATISTICAL PROCESS CONTROL REQUIREMENTS
+3.1 SPC software (currently OptiSPC v3.4) must be active and recording for all draw parameters throughout production. Manual entry is not permitted during active draws.
+3.2 Control charts must be reviewed by the shift supervisor at the end of each shift. Trends (6 consecutive points moving in one direction) must be documented in the shift log.
+3.3 ±3σ control limits are applied to all Shewhart charts. Out-of-control signals require a Process Deviation Report (PDR) within 2 hours.
+
+4. OPERATOR REQUIREMENTS
+4.1 All draw tower operators must hold Level 2 Draw Certification or higher (see TR-2024-015 training matrix).
+4.2 Operators must complete the pre-draw checklist (Form QF-7041) before initiating any draw.
+4.3 Unattended draw operations are not permitted on Lines 1 and 2. Line 3 and 4 may operate unattended for periods up to 30 minutes with active monitoring via the SPC dashboard.
+
+5. PREVENTIVE MAINTENANCE INTERFACE
+5.1 Draw furnace heating elements: rated life 4,500 operational hours. Replace at 4,200 hours or upon evidence of degraded zone uniformity (temperature differential > 8°C between zones).
+5.2 Capstan and coating applicators: monthly inspection. Any wear exceeding 0.1mm on capstan groove requires immediate replacement.
+5.3 PM records are maintained in the Equipment Maintenance System (EMS). Operations must verify PM currency before starting any draw run exceeding 8 hours.
+
+6. NONCONFORMANCE AND ESCALATION
+6.1 When any critical parameter exceeds its UCL or LCL:
+  a. Operator stops the draw or adjusts within their authority
+  b. Shift supervisor notified within 15 minutes
+  c. Affected fiber tagged for quarantine
+  d. NCR initiated within 4 hours via QMS
+
+6.2 Customer Impact Assessment:
+  - Diameter excursion > ±1.0 μm for > 5 consecutive meters: notify customer quality within 24 hours
+  - Tension peak > 62g: 100% of affected spools quarantined until tensile testing confirms compliance with IEC 60793-2-50 fiber strength requirements
+
+7. REFERENCES
+- WI-4455: Fiber Preform Deposition Parameters
+- WI-4420: Borosilicate Glass Batch Mixing
+- CAPA-089: Fiber Draw Tension Deviation (Line 3) — related historical nonconformance
+- ISO 9001:2015 §8.5.1: Control of Production and Service Provision
+- IEC 60793-2-50: Optical fibres — Part 2-50: Product specifications — Sectional specification for class B single-mode optical fibres
+- FDA 21 CFR Part 820.80: Acceptance activities
+- IATF 16949 §8.5.1: Control of production and service provision
+
+8. REVISION HISTORY
+Rev 4.2 (2024-11-15): Updated tension UCL from 58g to 55g based on CAPA-089 root cause findings. Added zone 3 temperature monitoring requirement. (Dr. Sarah Chen)
+Rev 4.1 (2024-06-01): Added SPC software mandate, removed manual charting option. (James Rodriguez)
+Rev 4.0 (2024-01-10): Full rewrite to align with IEC 60793-2-50:2024 update. (Dr. Sarah Chen)

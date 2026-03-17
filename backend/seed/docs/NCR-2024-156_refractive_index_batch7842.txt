@@ -1,0 +1,63 @@
+NONCONFORMANCE REPORT
+Document Number: NCR-2024-156
+Title: Out-of-Specification Refractive Index — Silica Source Batch 7842
+Status: Open
+Priority: High
+Owner: Michael Torres, Supplier Quality Engineer
+Department: Supply Chain Quality
+Opened Date: 2024-11-28
+Regulatory References: ISO 9001:2015 §8.7, SOP-2024-031, WI-4420
+
+1. NONCONFORMANCE DESCRIPTION
+During incoming quality control inspection on 2024-11-30, material from Silica Source Inc. (Supplier: SUP-001), Batch ID: 7842, Delivery Date: 2024-11-28 was tested for refractive index per WI-4420 §3.1 using ASTM C1349. The measured refractive index of the SiO2 raw material is 1.4589, which exceeds the upper specification limit of 1.4585 as defined in WI-4420.
+
+Specification: 1.4570 – 1.4585
+Measured value: 1.4589 (4 measurements, average: 1.4589, standard deviation: 0.0001)
+Deviation: +0.0004 above the USL
+
+100% of Batch 7842 (1,200 kg) is currently on HOLD. No material from this batch is to be used in production until this NCR is resolved.
+
+2. DETECTION AND TIMING
+This batch was received on 2024-11-28. The refractive index anomaly was detected during routine incoming inspection on 2024-11-30 (2-day inspection cycle). The batch was quarantined on the same day as detection.
+
+Note: On 2024-11-28, Draw Line 3 experienced a tension deviation (CAPA-089). Investigation into whether Batch 7842 material was incorporated into any fiber draw prior to the inspection result being available is ongoing. If any Batch 7842 SiO2 was incorporated into preforms drawn on Line 3 on 2024-11-28, those preforms and resulting fiber spools are also under expanded investigation.
+
+3. IMPACT ASSESSMENT
+3.1 Material impact: 1,200 kg of SiO2 raw material on HOLD. Approximately 3 weeks of production supply at current draw rates.
+3.2 Process impact: Alternative SiO2 source (SUP-002 backup allocation) is being evaluated. Lead time for alternative: 5 business days.
+3.3 Fiber impact (potential): If any Batch 7842 SiO2 was used in Melt M-2024-318 (November 28 batch), the resulting preforms (PRF-2024-0041 through PRF-2024-0045) and fiber spools drawn from those preforms require expanded testing for refractive index compliance.
+3.4 Customer impact: On HOLD — investigation period is 2 weeks. Customer delivery commit for order QMO-4421 (2024-12-15) is at risk if alternative material cannot be qualified within 10 days.
+
+4. ROOT CAUSE INVESTIGATION (ONGOING)
+Silica Source Inc. was notified on 2024-11-30 and has been requested to provide:
+  a. Certificate of Analysis (CoA) for Batch 7842
+  b. Process change notifications for the relevant production period
+  c. Root cause analysis for the refractive index deviation
+  d. Samples from the same production run for third-party testing
+
+Prior NCR history for SUP-001: No prior nonconformances in 36 months of supply history. This is the first refractive index deviation from this supplier.
+
+Cross-reference to AR-2024-Q3 (Internal Audit): The Q3 audit noted a supplier performance observation for SUP-001 related to delivery schedule variance. The audit observation is on file. No quality nonconformances were noted at the time of the audit.
+
+5. IMMEDIATE CONTAINMENT ACTIONS
+CA-1: 100% of Batch 7842 placed on HOLD in MMS — system prevents issuing to production floor
+CA-2: Operators informed via shift briefing not to use any SiO2 from the HOLD area
+CA-3: IQC team conducting 100% inspection of prior 3 batches from SUP-001 (retroactive verification)
+CA-4: Alternative SiO2 from SUP-002 reserve stock being assessed for refractive index conformance
+
+6. LINKS TO RELATED DOCUMENTS
+- CAPA-089: Fiber Draw Tension Deviation (Line 3, same day) — potential linked event under investigation
+- NCR-2024-141: Prior nonconformance (surface defect, different supplier) — for reference on NCR trend
+- WI-4420: Borosilicate Glass Batch Mixing — §3 specifies incoming inspection requirements and SiO2 acceptance criteria
+- SOP-2024-031: Draw Process Control — references WI-4420 for material input requirements
+
+7. DISPOSITION DECISION
+Pending root cause investigation. Options under evaluation:
+  Option A: Return to supplier (if confirmed out-of-spec per independent testing)
+  Option B: Use under deviation with increased monitoring (requires Engineering and Customer approval — not preferred)
+  Option C: Scrap (cost: ~$14,400 at $12/kg for electronic-grade SiO2)
+Decision required by: 2024-12-14
+
+8. REVISION HISTORY
+Rev 1.0 (2024-11-30): Initial NCR opened. (Michael Torres)
+Rev 1.1 (2024-12-02): Added expanded investigation scope for preforms PRF-2024-0041 through PRF-2024-0045. (Michael Torres, James Rodriguez)
